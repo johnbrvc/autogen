@@ -63,7 +63,7 @@ if argv.singlefile != None :
     photolist = [ argv.singlefile ]
 else :
     photolist = sorted(find_photos_in_directory("team_pictures"))
-fi
+
 
 if argv.novideo == True or argv.usefilename == True :
     gen_video = False
